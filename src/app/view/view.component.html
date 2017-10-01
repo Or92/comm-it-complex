@@ -1,0 +1,14 @@
+<div *ngIf="!done">
+<div *ngFor="let question of questions; let i=index;">
+  <div *ngIf="i === currentPage-1">
+    {{question.question}}
+    <ul>
+      <li *ngFor="let option of question.options">
+        <input type="checkbox" value="{{option}}" (change)="addAnswer($event, i)"> {{option}}
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+<span *ngIf="done">Your Grade is: {{grade}}</span>
+<app-navbar *ngIf="!done" [lastPage]="lastPage" (finished)="calculateGrade()"></app-navbar>

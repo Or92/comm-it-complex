@@ -1,0 +1,10 @@
+<button *ngIf="currentPage<=lastPage" [disabled]="currentPage===1" (click)="handlePaging('prev')">
+  Prev
+</button>
+{{currentPage}}/{{lastPage}}
+<button *ngIf="currentPage<lastPage" (click)="handlePaging('next')">
+  Next
+</button>
+<button  *ngIf="currentPage==lastPage" (click)="quizDone()">
+  Done
+</button>

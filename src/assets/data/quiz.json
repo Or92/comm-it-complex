@@ -1,0 +1,52 @@
+{
+  "quiz": [
+    {
+        "question": "How much is 1+1?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correct": "2"
+    },
+    {
+        "question": "How much is 0.5 + 0.5?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correct": "1"
+    },
+    {
+        "question": "How much is 3+3?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correct": "6"
+    },
+    {
+        "question": "How much is 2+2?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correct": "4"
+    }
+  ]
+}
